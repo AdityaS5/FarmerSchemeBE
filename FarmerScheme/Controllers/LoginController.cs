@@ -16,7 +16,7 @@ namespace FarmerScheme.Controllers
             FarmerSchemeEntities db = new FarmerSchemeEntities();
 
             var res = db.user_information.Where(x => x.username == log.username && x.password == log.password).FirstOrDefault();
-            Console.WriteLine(res+"vs19");
+            //Console.WriteLine(res+"vs19");
             if (res != null)
             {
                 //log.message = "Successful";
