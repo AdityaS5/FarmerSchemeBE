@@ -20,7 +20,7 @@ namespace FarmerScheme.Controllers
             if (res != null)
             {
                 //log.message = "Successful";
-                return Ok("Successful");
+                return Ok(res);
             }
             else
             {
